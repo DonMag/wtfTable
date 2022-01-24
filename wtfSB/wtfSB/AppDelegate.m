@@ -16,6 +16,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+
+//	if (@available(iOS 15.0, *)) {
+//		UINavigationBarAppearance *appearance = [UINavigationBarAppearance new];
+//		[appearance configureWithOpaqueBackground];
+//		appearance.backgroundColor = [UIColor systemBlueColor];
+//		
+//		self.navigationItem.standardAppearance = appearance;
+//		self.navigationItem.compactAppearance = appearance;
+//		self.navigationItem.scrollEdgeAppearance = appearance;
+//		self.navigationItem.compactScrollEdgeAppearance = appearance;
+//	}
+
 	return YES;
 }
 

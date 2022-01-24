@@ -7,6 +7,8 @@
 
 #import "SceneDelegate.h"
 
+#import "TestTableViewController.h"
+
 @interface SceneDelegate ()
 
 @end
@@ -18,6 +20,26 @@
 	// Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
 	// If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
 	// This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+//	UIWindowScene *ws = (UIWindowScene *) scene;
+//
+//	TestTableViewController *testvc = [[TestTableViewController alloc] init];
+//	testvc.view.backgroundColor = UIColor.systemGroupedBackgroundColor;
+//	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:testvc];
+//
+//	UIWindow *w = [[UIWindow alloc] initWithWindowScene:ws];
+//	w.rootViewController = nav;
+//	[w makeKeyAndVisible];
+//	self.window = w;
+	//self.window.rootViewController = nav;
+	
+	/*
+	 if ([scene isKindOfClass:[UIWindowScene class]]) {
+	 UIWindow *window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene*)scene];
+	 window.rootViewController = nav;
+	 }
+	 */
+
 }
 
 

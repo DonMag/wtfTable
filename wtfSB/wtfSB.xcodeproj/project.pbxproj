@@ -14,6 +14,7 @@
 		FC16743B279EDCBB004AA5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC16743A279EDCBB004AA5CE /* Assets.xcassets */; };
 		FC16743E279EDCBB004AA5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC16743C279EDCBB004AA5CE /* LaunchScreen.storyboard */; };
 		FC167441279EDCBB004AA5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC167440279EDCBB004AA5CE /* main.m */; };
+		FC16746E279EDD73004AA5CE /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC16746D279EDD73004AA5CE /* TestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FC16743D279EDCBB004AA5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC16743F279EDCBB004AA5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC167440279EDCBB004AA5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC16746C279EDD73004AA5CE /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		FC16746D279EDD73004AA5CE /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FC167432279EDCBA004AA5CE /* SceneDelegate.m */,
 				FC167434279EDCBA004AA5CE /* ViewController.h */,
 				FC167435279EDCBA004AA5CE /* ViewController.m */,
+				FC16746C279EDD73004AA5CE /* TestTableViewController.h */,
+				FC16746D279EDD73004AA5CE /* TestTableViewController.m */,
 				FC167437279EDCBA004AA5CE /* Main.storyboard */,
 				FC16743A279EDCBB004AA5CE /* Assets.xcassets */,
 				FC16743C279EDCBB004AA5CE /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				FC167436279EDCBA004AA5CE /* ViewController.m in Sources */,
 				FC167430279EDCBA004AA5CE /* AppDelegate.m in Sources */,
+				FC16746E279EDD73004AA5CE /* TestTableViewController.m in Sources */,
 				FC167441279EDCBB004AA5CE /* main.m in Sources */,
 				FC167433279EDCBA004AA5CE /* SceneDelegate.m in Sources */,
 			);

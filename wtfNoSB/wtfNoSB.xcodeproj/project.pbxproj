@@ -14,6 +14,7 @@
 		FC167460279EDCCE004AA5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC16745F279EDCCE004AA5CE /* Assets.xcassets */; };
 		FC167463279EDCCE004AA5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC167461279EDCCE004AA5CE /* LaunchScreen.storyboard */; };
 		FC167466279EDCCE004AA5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC167465279EDCCE004AA5CE /* main.m */; };
+		FC167471279EE1B9004AA5CE /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC167470279EE1B9004AA5CE /* TestTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FC167462279EDCCE004AA5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC167464279EDCCE004AA5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC167465279EDCCE004AA5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC16746F279EE1B9004AA5CE /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		FC167470279EE1B9004AA5CE /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FC167457279EDCCD004AA5CE /* SceneDelegate.m */,
 				FC167459279EDCCD004AA5CE /* ViewController.h */,
 				FC16745A279EDCCD004AA5CE /* ViewController.m */,
+				FC16746F279EE1B9004AA5CE /* TestTableViewController.h */,
+				FC167470279EE1B9004AA5CE /* TestTableViewController.m */,
 				FC16745C279EDCCD004AA5CE /* Main.storyboard */,
 				FC16745F279EDCCE004AA5CE /* Assets.xcassets */,
 				FC167461279EDCCE004AA5CE /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				FC16745B279EDCCD004AA5CE /* ViewController.m in Sources */,
 				FC167455279EDCCD004AA5CE /* AppDelegate.m in Sources */,
+				FC167471279EE1B9004AA5CE /* TestTableViewController.m in Sources */,
 				FC167466279EDCCE004AA5CE /* main.m in Sources */,
 				FC167458279EDCCD004AA5CE /* SceneDelegate.m in Sources */,
 			);
@@ -298,7 +304,6 @@
 				INFOPLIST_FILE = wtfNoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +329,6 @@
 				INFOPLIST_FILE = wtfNoSB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
